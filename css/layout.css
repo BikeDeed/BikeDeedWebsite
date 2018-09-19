@@ -288,6 +288,59 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
+/* c. Ecosystem Section
+/* ------------------------------------------------------------------ */
+
+#ecosystem {
+/*
+   background: #2B2B2B;
+   background: #ebeeee;
+*/
+
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#ecosystem a, #ecosystem a:visited  { color: #fff; }
+#ecosystem a:hover, #ecosystem a:focus { color: #11ABB0; }
+
+#ecosystem h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#ecosystem p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#ecosystem .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#ecosystem .contact-details { width: 41.66667%; }
+#ecosystem .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#ecosystem .main-col { padding-right: 5%; }
+#ecosystem .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#ecosystem .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#ecosystem .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
