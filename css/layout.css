@@ -17,17 +17,29 @@ header p {
 }
 header {
    position: relative;
-   height: 800px;
+/*
+   height: 1200px;
+*/
    min-height: 500px;
    width: 100%;
 /*
-   background: #161415 url(../images/bikedeedlogobig.png) no-repeat top center;
+   background: #161415 url(../images/bikedeedlogo.png) no-repeat top center;
 */
    background: #2B2B2B no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
+/*
    overflow: hidden;
+*/
+}
+
+header a img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 12px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 180px; /* Set a small width */
+    position: left;
 }
 
 /* vertically center banner section */
@@ -903,6 +915,15 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+}
+
+#contact a img {
+    border: 0px solid #ddd; /* Gray border */
+    border-radius: 12px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+/*
+    width: 150px; /* Set a small width */
+*/
 }
 
 #contact a, #contact a:visited  { color: #fff; }
