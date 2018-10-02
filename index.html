@@ -38,7 +38,7 @@
 </head>
 
 <body>
-
+<div class="fadeoutimage"><img src="images/bikedeedlogo.png"></div>
    <!-- Header
    ================================================== -->
    <header id="home">
@@ -56,7 +56,7 @@
             <li><a class="smoothscroll" href="#ecosystem">Ecosystem</a></li>
             <li><a class="smoothscroll" href="#team">Team</a></li>
             <li><a class="smoothscroll" href="#whitepaper">Whitepaper</a></li>
-            <li><a href="app/index.html">The App</a></li>
+            <li><a href="app/index.html">The DApp</a></li>
             <li><a class="smoothscroll" href="#theapp">Tutorial</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
@@ -191,6 +191,7 @@
                <li>Theft and Recovery</li>
                <li>Search Bikes and Owners</li>
                <li>Data Discovery</li>
+               <li>Smart Locks</li>
             </ul>
 
 
@@ -448,6 +449,12 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script>
+       $('.fadeoutimage').show();
+       setTimeout(function(){
+   $('.fadeoutimage').hide(); }, 5000);
+       
+   </script>
 
 </body>
 
